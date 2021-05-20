@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    background: url(./images/col_grid.png) center #ffffff;
+    background-repeat: repeat-y;
+    font-family: 'Raleway', sans-serif;
+    height: 100%;
+}
+
+.content_wrapper {
+    margin: auto;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #2a69a6;
+    border: 1px solid #2a69a6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 19px;
+}
+
+.image {
+    fill: #fff;
+}
+
+.entry {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #000000;
+    font-weight: 400;
+}
+
+.icon:hover {
+    background-color: transparent;
+}
+
+.icon:hover .image {
+    fill: #2a69a6;
+}
+
+.item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    font-weight: 100;
+    color: #9d9d9d;
+}
